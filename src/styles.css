@@ -95,7 +95,6 @@ body {
 }
 
 .task-label {
-    padding-top: 14px;
     font-family: system-ui, sans-serif;
     font-size: 2rem;
     font-weight: bold;
@@ -148,3 +147,12 @@ body {
         font-family: 'Poppins', sans-serif;
 }
 
+.completed {
+    text-decoration: line-through;
+    color: #999;
+    /* Adjust the color for completed tasks */
+}
+
+.completed-text {
+    text-decoration: line-through;
+}
