@@ -42,9 +42,11 @@ const App = () => {
 
   return (
     <>
-      <NewTodoForm onSubmit={addTodo}/>
-      <h1 className='header'>Our Todo List</h1>
-      <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
+      <div className='container'>
+        <h1 className='title'>Todo Application</h1>
+        <NewTodoForm onSubmit={addTodo}/>
+        <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
+      </div>
     </>
   )
 }

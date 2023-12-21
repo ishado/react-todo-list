@@ -10,18 +10,18 @@ const NewTodoForm = ({onSubmit}) => {
         setNewItem("")
   }
   return (
-    <form onSubmit={handleSubmit}
-        className='new-item-form'>
-        <div className='form-row'>
-          <label htmlFor='item'>Todo Application</label>
+    <form onSubmit={handleSubmit}>
+        <div className='newtask'>
           <input
             onChange={(event) => setNewItem(event.target.value)}
             value={newItem}
             type="text"
             id='item'
+            className='newtask-input'
           />
+          <button className="btn-add">add</button>
         </div>
-        <button className="btn">add</button>
+        <label htmlFor='item' className='subtitle'>Our Todo List</label>
       </form>
   )
 }

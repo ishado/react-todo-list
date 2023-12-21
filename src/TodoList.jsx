@@ -3,8 +3,8 @@ import TodoItem from './TodoItem'
 
 const TodoList = ({todos,toggleTodo,deleteTodo}) => {
   return (
-    <ul className='list'>
-        {todos.length === 0 && "No Todos Founds"}
+    <ul className='tasks'>
+        {todos.length === 0 && "No Todo Founds"}
         {todos.map(todo => <TodoItem 
             toggleTodo={toggleTodo}
             deleteTodo={deleteTodo}
