@@ -1,6 +1,6 @@
 # Todo App with ReactJS and Vite
 
-This is a simple Todo application built using ReactJS and Vite.
+This is a simple Todo application save todos in local storage , built using ReactJS and Vite.
 
 ## [Table of Contents](#table-of-contents)
 
